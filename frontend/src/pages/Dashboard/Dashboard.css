@@ -1,0 +1,51 @@
+.main {
+  height: calc(100vh - 70px);
+}
+.drower {
+  padding-top: 30px;
+  width: 50px;
+  height: calc(100vh - 70px);
+  background-color: rgb(248,249,250);
+  box-shadow: 8px 8px 46px -17px rgba(66, 68, 90, 1);
+  transition: width .5s ;
+}
+.panel {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(248,249,250);
+  border-radius: 20px;
+}
+.drower:hover {
+  width: 150px;
+}
+
+ul {
+  padding-left: 15px;
+  list-style-type: none;
+}
+ul li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ul li a:link {
+  color: rgba(0, 0, 0, 0.55);
+  text-decoration: none;
+}
+
+ul li a:visited {
+  color: rgba(0, 0, 0, 0.55);
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+
+ul li a:active {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
